@@ -29,6 +29,9 @@ local.properties
 .buildpath
 
 
+# Proteus 8
+*.pdsbak
+
 #################
 ## Visual Studio
 #################
@@ -62,6 +65,9 @@ local.properties
 *.vspscc
 .builds
 *.dotCover
+
+*.map
+*.plg
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
 #packages/
