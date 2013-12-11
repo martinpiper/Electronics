@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C64Boot", "..\C64Boot\C64Boot.vcxproj", "{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microcode", "Microcode.vcxproj", "{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Debug|Win32.ActiveCfg = Release|Win32
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Debug|Win32.Build.0 = Release|Win32
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Release|Win32.ActiveCfg = Release|Win32
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Release|Win32.Build.0 = Release|Win32
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Template|Win32.ActiveCfg = Release|Win32
+		{E5840F21-7F0C-4C9A-971F-50ED7D5F6B4C}.Template|Win32.Build.0 = Release|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Debug|Win32.Build.0 = Debug|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Release|Win32.ActiveCfg = Release|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Release|Win32.Build.0 = Release|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Template|Win32.ActiveCfg = Template|Win32
+		{1DBFBAE5-BD82-43EF-BD7C-D1B60697B453}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

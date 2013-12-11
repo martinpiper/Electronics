@@ -2,6 +2,7 @@
 !to "C64Boot.prg", cbm
 !sl "C64Boot.map"
 ;!svl "C64Boot.lbl"
+!pdb "C64Boot.pdb"
 !cpu 6510
 !ct pet
 

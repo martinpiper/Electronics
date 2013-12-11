@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5b157965-b000-4b2f-8fa5-db0cdf6d024f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4633468f-6f8f-4d72-83a3-870ff36573c1}</UniqueIdentifier>
+      <Extensions>a</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ExtLib">
+      <UniqueIdentifier>{cf050177-62f9-4068-9754-0b6b3782b246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{73a493e9-bd9a-4886-8ec4-f890bd82b3cd}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="BootROM.a">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C64BootEntry.a">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\C64\stdlib\BASICEntry900.a">
+      <Filter>Header Files\ExtLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\C64\stdlib\Initialise.a">
+      <Filter>Header Files\ExtLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Microcode\LCD.a">
+      <Filter>Header Files\ExtLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\C64\stdlib\stdlib.a">
+      <Filter>Header Files\ExtLib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Build.bat">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

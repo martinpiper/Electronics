@@ -8,6 +8,7 @@
 ;Save labels as a different name to allow the VICE automatic label load to get the right label set.
 ;!svl "BootROM.lbl"
 !svl "C64Boot.lbl"
+!pdb "BootROM.pdb"
 !cpu 6510
 !ct raw
 
