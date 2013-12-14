@@ -1,0 +1,34 @@
+﻿Build started 11/12/2013 22:34:26.
+     1>Project "C:\Work\Electronics\C64Boot\C64Boot.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         Build.bat
+         First pass.
+         Parsing source file 'BootROM.a'
+         Parsing source file '../../C64/stdlib/stdlib.a'
+         Parsing source file '../Microcode/LCD.a'
+         Segment size is 1235 ($4d3) bytes ($e000 - $e4d3 exclusive).
+         Segment size is 6 ($6) bytes ($fffa - $10000 exclusive).
+         Further pass.
+         Parsing source file 'BootROM.a'
+         Parsing source file '../../C64/stdlib/stdlib.a'
+         Parsing source file '../Microcode/LCD.a'
+         Saving 8192 ($2000) bytes ($e000 - $10000 exclusive).
+         First pass.
+         Parsing source file 'C64BootEntry.a'
+         Parsing source file '../../C64/stdlib/stdlib.a'
+         Parsing source file '../../C64/stdlib/BASICEntry900.a'
+         Segment size is 17 ($11) bytes ($801 - $812 exclusive).
+         Parsing source file '../../C64/stdlib/Initialise.a'
+         Loaded 8192 ($2000) bytes from file offset 0 ($0).
+         Segment size is 8389 ($20c5) bytes ($900 - $29c5 exclusive).
+         Further pass.
+         Parsing source file 'C64BootEntry.a'
+         Parsing source file '../../C64/stdlib/stdlib.a'
+         Parsing source file '../../C64/stdlib/BASICEntry900.a'
+         Parsing source file '../../C64/stdlib/Initialise.a'
+         Saving 8644 ($21c4) bytes ($801 - $29c5 exclusive).
+     1>Done Building Project "C:\Work\Electronics\C64Boot\C64Boot.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
