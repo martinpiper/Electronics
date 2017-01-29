@@ -98,6 +98,10 @@
 // In the layout of the BASIC and KERNAL ROM sockets it may be useful to replace their pads using the S-75-40 pad for a ZIF socket.
 // Just select the S-75-40 pad mode, highlight the pin on the IC, then press the left mouse button twice. Or choose the "Edit Pin" option with the pin selected.
 
+// Power planes
+// Top copper : Net : VCC/VDD=POWER
+// Bottom copper : Net : GND=POWER
+
 // If space allows include the debugging header.
 
 // ****************
