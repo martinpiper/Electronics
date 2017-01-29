@@ -155,6 +155,13 @@
 // Now the state is emulated at roughly four ticks per "cycle" now.
 
 
+// Create an IO buffer board.
+// This will store/latch several inputs from the MemoryMappedIOArea1/2 area coming from a real C64.
+// This design microcode and ALU can then be re-purposed to provide a fast 16/32 addition, multiply, divide.
+// Then the result can be output to several output latches, that can be read in the MemoryMappedIOArea1/2 space.
+// TODO - Will need an edge connector for the cartridge port.
+// Also some kind of latch/buffer with power separation in mind because the C64 power probably won't be enough to power all the ICs.
+
 class Extensions : public OpCode
 {
 public:
