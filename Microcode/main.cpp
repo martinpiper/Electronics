@@ -48,7 +48,7 @@
 // http://www.6502.org/tutorials/6502opcodes.html
 // http://www.oxyron.de/html/opcodes02.html
 
-// C64 Kernal ROM patches to get things running
+// C64 Kernal ROM patches to get things running (Stored in Electronics\C64ROMs)
 // *Because the normal C64 kernal boot process does a memory check at $fd50 which takes ages under simulation
 // replace $fd69 ($03) with $9f so it find the top of memory much more quickly.
 // *The raster test needs NOPing ($EA) out at FF61 "D0 FB  BNE $FF5E" since we have no video hardware.
