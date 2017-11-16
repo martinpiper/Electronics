@@ -52,7 +52,7 @@ abort2
 	!by 2	; HALT
 Start
 	; Some simple screen setup for the real C64 so I can see the screen in zero page.
-	; We deliberately use absolute addessing here because the LDA/STA instructions were the first supported.
+	; We deliberately use absolute addressing here because the LDA/STA instructions were the first supported.
 
 	; We deliberately do not do these stores now because when using the C64Boot project we don't want to enable the real ROMs
 	; Maybe if the ROMs are used in the real C64 we will enable these stores, however the default C64 seems to start in ProcessorPortDefault mode.
