@@ -67,6 +67,14 @@
 // 12:15.00 is when the BASIC screen banners start to display.
 // 16:52.00 is around about when the BASIC ready prompt should be displayed.
 // Running at 100000Hz a capture resolution of 5u is good.
+
+// https://www.unitjuggler.com/convert-frequency-from-Hz-to-%C2%B5s(p).html?val=2000000
+// e.g. 2000000 Hz = 0.5 µs
+// Toolbar menu->System->Set Animation Options->Single Step Time: 0.5u (500n)
+// This will be enough to show the opcode code on root sheet 2 advancing for each tick
+
+
+
 // The simulation has been tested with the C64 ROMs at 1MHz CLK without any EXTWANTBUS and displays the BASIC startup screen at roughly 1.12 seconds.
 // With IRQs enabled the simulation displays a flashing cursor around 3.4 secs into the simulation.
 
