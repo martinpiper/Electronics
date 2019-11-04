@@ -96,11 +96,15 @@
 // Note the component annotation values for ICs etc all start at 200.
 // Don't forget to copy the parts for the actual LCD displays.
 // For Ares auto-place on ~168mm x ~110mm
-// Both boards use the same layers options from, Tools->Design Rule Manager->Net Classes tab
+// Technology->Set Layer Stackup:Stackup Wizard:No. of Copper Layers:4
+
+// Both boards use the same layers options from, Technology->Design Rule Manager->Net Classes tab
 // Power 2 layers
 // Signal 2 layers
 // Use layers control 1, power, ground, control 2
 // Fill the layers with unused copper
+
+// TODO: Check with Proteus documentation about power plane defaults and layer options
 
 // Notes for MK II
 // In the layout of the BASIC and KERNAL ROM sockets it may be useful to replace their pads using the S-75-40 pad for a ZIF socket.
