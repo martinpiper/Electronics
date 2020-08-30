@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://electronicsclub.info/74series.htm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers</title>
+<link rel="stylesheet" type="text/css" href="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/zecstyle.css">
+<link rel="stylesheet" href="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/font-awesome.min.css">
+<link rel="icon" href="https://electronicsclub.info/favicon.ico" type="image/x-icon">
+
+<meta name="description" content="Electronics Club - 74 Series Logic ICs">
+<meta name="keywords" content="electronics beginner 74 series TTL 74LS 74HC 74HCT logic ICs chips logic gates counters display drivers">
+<meta name="author" content="John Hewes">
+<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+<div id="header"><a id="menulink" href="https://electronicsclub.info/menu.htm">Menu <i class="fa fa-bars"></i></a>
+<a id="homelink" href="http://electronicsclub.info/">Electronics Club</a>
+<span class="nav">
+<a class="navlink" href="https://electronicsclub.info/components.htm">Components</a>
+<a class="navlink" href="https://electronicsclub.info/study.htm">Study</a>
+</span>
+<a class="navlink" href="https://electronicsclub.info/555timer.htm">555</a>
+<a class="navlink" href="https://electronicsclub.info/projects.htm">Projects</a>
+<a class="navlink" href="https://electronicsclub.info/construction.htm">Construction</a>
+<a class="navlink" href="https://electronicsclub.info/soldering.htm">Solder</a>
+<a class="navlink" href="https://electronicsclub.info/books.htm">Books</a>
+<a class="navlink" href="https://electronicsclub.info/faq.htm">FAQ</a>
+<a class="navlink" href="https://electronicsclub.info/circuitsymbols.htm">Symbols</a>
+<a class="navlink" href="https://electronicsclub.info/starterkit.htm">Starter kit</a>
+<a class="navlink" href="https://electronicsclub.info/tools.htm">Tools</a>
+</div>
+<div id="topofpage"></div>
+
+<a href="http://electronicsclub.info/"><img class="logo" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/eclogo.gif" alt="Electronics Club" width="125" height="62"></a>
+
+<h1>74 Series Logic ICs</h1>
+<div class="clearboth"></div>
+
+<p class="links"><a href="https://electronicsclub.info/74series.htm#families">Families</a>&nbsp;| <a href="https://electronicsclub.info/74series.htm#opencollector">Open&nbsp;collector</a>&nbsp;|
+<a href="https://electronicsclub.info/74series.htm#characteristics">Characteristics</a>&nbsp;| <a href="https://electronicsclub.info/74series.htm#gates">Logic&nbsp;Gates</a>&nbsp;|
+<a href="https://electronicsclub.info/74series.htm#counters">Counters</a>&nbsp;| <a href="https://electronicsclub.info/74series.htm#decoders">Decoders</a>&nbsp;| <a href="https://electronicsclub.info/74series.htm#drivers">Display&nbsp;drivers</a></p>
+<p class="links">Also see: <a href="https://electronicsclub.info/cmos.htm">4000&nbsp;Series</a>&nbsp;| <a href="https://electronicsclub.info/ics.htm">ICs</a></p>
+<hr>
+
+<div class="wrap320">
+<div class="colflex">
+<p>There are several <a href="https://electronicsclub.info/74series.htm#families">families</a> of logic ICs numbered from 74xx00 onwards with letters (xx) in the middle
+of the number to indicate the type of circuitry, eg 74LS00 and 74HC00. The original family (now obsolete) had no letters, eg 7400.</p>
+</div>
+<div class="col320">
+<p class="centered"><a target="_blank" href="https://www.rapidonline.com/74xx-series"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7400horizontal.gif" alt="74 series IC" width="128" height="62"></a>
+<br>Rapid Electronics: <a target="_blank" href="https://www.rapidonline.com/74xx-series">74&nbsp;series&nbsp;ICs</a></p>
+</div></div>
+
+<div class="wrap320">
+<div class="colflex">
+<p>This page covers a selection of the many ICs in the 74 series, concentrating
+on the most useful <a href="https://electronicsclub.info/74series.htm#gates">gates</a>, <a href="https://electronicsclub.info/74series.htm#counters">counters</a>,
+<a href="https://electronicsclub.info/74series.htm#decoders">decoders</a> and <a href="https://electronicsclub.info/74series.htm#drivers">display&nbsp;drivers</a>.
+For each IC there is a diagram showing the pin arrangement and brief notes explain
+the function of the pins where necessary.
+For simplicity the family letters after the 74 are omitted in the diagrams below because the pin connections apply
+to all ICs with the same number. For example 7400 NAND gates are available as 74HC00, 74HCT00 and 74LS00.</p>
+<p>If you are using another reference please be aware that there is some variation in the terms used to describe pin functions,
+for example <strong>reset</strong> is also called <strong>clear</strong>. Some inputs are 'active low' which means they perform
+their function when low. If you see a line drawn above a label it means it is active low, for example:&nbsp;
+<img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/resetbar.gif" alt="reset-bar" width="28" height="11"> &nbsp;(say 'reset-bar').
+The Links page lists <a href="https://electronicsclub.info/links.htm#datasheets">datasheet&nbsp;websites</a>.</p>
+</div>
+<div class="col320">
+<p class="centered"><a target="_blank" href="https://www.bookdepository.com/Transistor-transistor-Logic-Cook-Book-Don-Lancaster/9780672210358">
+<img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/ttl.jpg" alt="TTL Cookbook" width="150"></a>
+<br>Recommended book: <a target="_blank" href="https://www.bookdepository.com/Transistor-transistor-Logic-Cook-Book-Don-Lancaster/9780672210358">TTL&nbsp;Cookbook</a></p>
+</div></div>
+
+<div id="families" class="clearboth"></div><hr>
+
+<h2>74 series families</h2>
+<div class="wrapfull">
+<div class="colhalf">
+<p>The <strong>74LS</strong> (Low-power Schottky) family (like the original) uses TTL (Transistor-Transistor Logic) circuitry
+which is fast but requires more power than later families. The 74 series is often still called the 'TTL series'
+even though the latest ICs do not use TTL!</p>
+<p>The <strong>74HC</strong> family has High-speed CMOS circuitry, combining the speed of TTL with the very low power
+consumption of the <a href="https://electronicsclub.info/cmos.htm">4000&nbsp;series</a>. They are CMOS ICs with the same pin arrangements as the older 74LS family.
+Note that 74HC inputs cannot be reliably driven by 74LS outputs because the voltage ranges used for logic 0
+are not quite compatible, use 74HCT instead.</p>
+</div>
+<div class="colhalf">
+<p>The <strong>74HCT</strong> family is a special version of 74HC with 74LS TTL-compatible inputs so 74HCT can be
+safely mixed with 74LS in the same system. In fact 74HCT can be used as low-power direct replacements for
+the older 74LS ICs in most circuits. The minor disadvantage of 74HCT is a lower immunity to noise, but
+this is unlikely to be a problem in most situations.</p>
+<p><strong>For most new projects the 74HC family is the best choice.</strong>
+The 74LS and 74HCT families require a 5V supply so they are not convenient for battery operation.</p>
+</div></div>
+
+<div id="opencollector" class="clearboth"></div><hr>
+
+<h2>Open Collector Outputs</h2>
+<div class="wrap320">
+<div class="colflex">
+<p>Some 74 series ICs have open collector outputs, this means they can <a href="https://electronicsclub.info/ics.htm#sinksource">sink</a>
+current but they cannot <a href="https://electronicsclub.info/ics.htm#sinksource">source</a> current. They behave like an NPN
+<a href="https://electronicsclub.info/transistorcircuits.htm#switching">transistor&nbsp;switch</a>.</p>
+<p>The diagram shows how an open collector output can be connected to sink current from a supply which has a
+higher voltage than the logic IC supply. The maximum load supply is 15V for most open collector ICs.</p>
+<p>Open collector outputs can be safely connected together to switch on a load when any one of them is low;
+unlike normal outputs which must be combined <a href="https://electronicsclub.info/ics.htm#combining">using&nbsp;diodes</a>.</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/opencoll.gif" alt="open collector output" width="240" height="229"></p>
+</div></div>
+
+<!-- Google electronicstopflex -->
+<hr><div class="responsivead">
+<script async="" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/f.txt"></script>
+<!-- electronicstopflex -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3404237790618599" data-ad-slot="1019806465" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div id="characteristics" class="clearboth"></div><hr>
+
+<div class="wrapfull">
+<div class="colhalf">
+<h2>74HC and 74HCT family characteristics</h2>
+<p>The CMOS circuitry used in the <strong>74HC</strong> and <strong>74HCT</strong> series ICs means that they are
+<a href="https://electronicsclub.info/ics.htm#static">static sensitive</a>. Touching a pin while charged with static electricity
+(from your clothes for example) may damage the IC. In fact most ICs in regular use are quite tolerant
+and earthing your hands by touching a metal water pipe or window frame before handling them will be adequate.
+ICs should be left in their protective packaging until you are ready to use them.</p>
+<ul>
+<li><strong>74HC Supply:</strong> 2 to 6V, small fluctuations are tolerated.</li>
+<li><strong>74HCT Supply:</strong> 5V ±0.5V, a regulated supply is best.</li>
+<li><strong>Inputs</strong> have very high impedance (resistance), this is good because it means
+they will not affect the part of the circuit where they are connected. However, it also means that unconnected
+inputs can easily pick up electrical noise and rapidly change between high and low states in an unpredictable way.
+This is likely to make the IC behave erratically and it will significantly increase the supply current.
+To prevent problems <strong>all unused inputs MUST be connected to the supply (either +Vs or 0V)</strong>,
+this applies even if that part of the IC is not being used in the circuit!
+<br><strong>Note that 74HC inputs cannot be reliably driven by 74LS outputs</strong> because the voltage ranges used
+for logic 0 are not quite compatible. For reliability use <strong>74HCT</strong> if the system includes some 74LS ICs.</li>
+<li><strong>Outputs</strong> can <a href="https://electronicsclub.info/ics.htm#sinksource">sink and source</a> about 4mA if you wish to maintain
+the correct output voltage to drive logic inputs, but if there is no need to drive any inputs the maximum current is about 20mA.
+To switch larger currents you can <a href="https://electronicsclub.info/transistorcircuits.htm#ic">connect&nbsp;a&nbsp;transistor</a>.</li>
+<li><strong>Fan-out:</strong> one output can drive many inputs (50+), except 74LS inputs because
+these require a higher current and only 10 can be driven.</li>
+<li><strong>Gate propagation time</strong>: about 10ns for a signal to travel through a gate.</li>
+<li><strong>Frequency</strong>: up to 25MHz.</li>
+<li><strong>Power consumption</strong> (of the IC itself) is very low, a few µW.
+It is much greater at high frequencies, a few mW at 1MHz for example.</li>
+</ul>
+</div>
+<div class="colhalf">
+<h2>74LS family TTL characteristics</h2>
+<ul>
+<li><strong>Supply:</strong> 5V ±0.25V, it must be very smooth, a regulated supply is best*.
+In addition to the normal supply smoothing, a 0.1µF capacitor should be connected across the supply near
+the IC to remove the 'spikes' generated as it switches state, one capacitor is needed for every 4 ICs.
+<br>* <em>In my experience 74LS ICs usually work successfully with a 4.5V battery supply in simple and undemanding
+low frequency circuits but I certainly don't recommend this for any circuit with a serious purpose
+as it's outside the rated voltage range.</em></li>
+<li><strong>Inputs</strong> 'float' high to logic 1 if unconnected, but do not rely on this in a permanent
+(soldered) circuit because the inputs may pick up electrical noise. 1mA must be drawn out to hold inputs at logic 0.
+In a permanent circuit it is wise to connect any unused inputs to +Vs to ensure good immunity to noise.</li>
+<li><strong>Outputs</strong> can <a href="https://electronicsclub.info/ics.htm#sinksource">sink</a> up to 16mA (enough to light an LED),
+but they can <a href="https://electronicsclub.info/ics.htm#sinksource">source</a> only about 2mA. To switch larger currents you can
+<a href="https://electronicsclub.info/transistorcircuits.htm#ic">connect&nbsp;a&nbsp;transistor</a>.</li>
+<li><strong>Fan-out</strong>: one output can drive up to 10 74LS inputs, but many more 74HCT inputs.</li>
+<li><strong>Gate propagation time</strong>: about 10ns for a signal to travel through a gate.</li>
+<li><strong>Frequency</strong>: up to about 35MHz (under the right conditions).</li>
+<li><strong>Power consumption</strong> (of the IC itself) is a few mW.</li>
+</ul>
+<div class="note"><h4>For most new projects the 74HC family is the best choice.</h4>
+<p>The 74LS and 74HCT families require a 5V supply so they are not convenient for battery operation.
+If you are used to using the 74LS series remember that 74HC and 74HCT inputs do not float high when unconnected
+so unused inputs must be connected to +Vs or 0V for reliable operation.</p>
+</div>
+</div></div>
+
+<hr>
+
+<h3>Mixing Logic Families</h3>
+<div class="wrap320"><div class="colflex">
+<p>It is best to build a circuit using just one logic family, but if necessary the different families may be
+mixed providing the power supply is suitable for all of them. For example mixing <a href="https://electronicsclub.info/cmos.htm">4000</a> and 74HC requires the
+power supply to be in the range 3 to 6V. A circuit which includes 74LS or 74HCT ICs must have a 5V supply.</p>
+<p>A 74LS output cannot reliably drive a <a href="https://electronicsclub.info/cmos.htm">4000</a> or 74HC input unless a 'pull-up' resistor of
+2.2k<img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/ohm.gif" alt="ohm" width="12" height="11"> is connected between
+the +5V supply and the input to correct the slightly different logic voltage ranges used.</p>
+<p>Note that a <a href="https://electronicsclub.info/cmos.htm">4000</a> series output can drive only one 74LS input.</p>
+<p>For tables showing characteristics of the logic families see: <a href="https://electronicsclub.info/ics.htm#logic">Logic&nbsp;ICs</a></p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/pullup.gif" alt="using a pull-up resistor" width="248" height="150">
+<br><small>Driving 4000 or 74HC inputs from a<br>74LS output using a pull-up resistor.</small></p>
+</div></div>
+
+<!-- Google electronicsflex -->
+<hr><div class="responsivead">
+<script async="" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/f.txt"></script>
+<!-- electronicsflex -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3404237790618599" data-ad-slot="2063396069" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div id="gates" class="clearboth"></div><div id="7400"></div><div id="7403"></div><div id="7408"></div>
+<div id="7409"></div><div id="7432"></div><div id="7486"></div><div id="74132"></div><hr>
+
+<h2>Quad 2-input gates</h2>
+<div class="wrap320"><div class="colflex">
+<ul>
+<li>7400 quad 2-input NAND</li>
+<li>7403 quad 2-input NAND with open collector outputs</li>
+<li>7408 quad 2-input AND</li>
+<li>7409 quad 2-input AND with open collector outputs</li>
+<li>7432 quad 2-input OR</li>
+<li>7486 quad 2-input EX-OR</li>
+<li>74132 quad 2-input NAND with Schmitt trigger inputs</li>
+</ul>
+<p>The 74132 has <a href="https://electronicsclub.info/555buffer.htm">Schmitt trigger</a> inputs to provide good noise immunity.
+They are ideal for slowly changing or noisy signals.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7400etc.gif" alt="quad 2-input gates" width="296" height="210"></div>
+</div>
+
+<div id="7402" class="clearboth"></div><hr>
+
+<div class="wrap320"><div class="colflex">
+<h2>7402 quad 2-input NOR</h2>
+<p>The 7402 IC is shown separately because it has an unusual gate layout.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7402.gif" alt="7402 quad 2-input NOR gates" width="296" height="210"></div>
+</div>
+
+<div id="7410" class="clearboth"></div><div id="7411"></div><div id="7412"></div><div id="7427"></div><hr>
+
+<div class="wrap320"><div class="colflex">
+<h2>Triple 3-input gates</h2>
+<ul>
+<li>7410 triple 3-input NAND</li>
+<li>7411 triple 3-input AND</li>
+<li>7412 triple 3-input NAND with open collector outputs</li>
+<li>7427 triple 3-input NOR</li>
+</ul>
+<p>Notice how gate 1 is spread across the two sides of the package.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7410etc.gif" alt="triple 3-input gates" width="296" height="210"></div>
+</div>
+
+<div id="7420" class="clearboth"></div><div id="7421"></div><hr>
+
+<div class="wrap320"><div class="colflex">
+<h2>Dual 4-input gates</h2>
+<ul>
+<li>7420 dual 4-input NAND</li>
+<li>7421 dual 4-input AND</li>
+</ul>
+<p>NC = No Connection (unused pin).</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7420-21.gif" alt="dual 4-input gates" width="296" height="210"></div>
+</div>
+
+<div id="7430" class="clearboth"></div><hr>
+
+<div class="wrap320"><div class="colflex">
+<h2>7430 8-input NAND gate</h2>
+<p>NC = No Connection (unused pin).</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7430.gif" alt="7430 8-input NAND gate" width="296" height="210"></div>
+</div>
+
+<div id="7404" class="clearboth"></div><div id="7405"></div><div id="7414"></div><hr>
+
+<div class="wrap320"><div class="colflex">
+<h2>Hex NOT gates</h2>
+<ul>
+<li>7404 hex NOT</li>
+<li>7405 hex NOT with open collector outputs</li>
+<li>7414 hex NOT with Schmitt trigger inputs</li>
+</ul>
+<p>The 7414 has <a href="https://electronicsclub.info/555buffer.htm">Schmitt trigger</a> inputs to provide good noise immunity.
+They are ideal for slowly changing or noisy signals.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7404etc.gif" alt="hex NOT gates" width="296" height="210"></div>
+</div>
+
+<div id="counters" class="clearboth"></div><div id="7490"></div><div id="7493"></div><hr>
+
+<h2>7490 decade (0-9) ripple counter<br>7493 4-bit (0-15) ripple counter</h2>
+<div class="wrap320"><div class="colflex">
+<p>These are <a href="https://electronicsclub.info/counting.htm#ripple">ripple</a> counters so beware that glitches may occur in any logic gate systems
+connected to their outputs due to the slight delay before the later counter outputs respond to a clock pulse.</p>
+<p>The count advances as the <strong>clock</strong> input becomes low (on the falling-edge), this is indicated
+by the bar over the clock label. This is the usual clock behaviour of ripple counters and it means
+a counter output can directly drive the clock input of the next counter in a chain.</p>
+<p><strong>The counter is in two sections:</strong> clockA-QA and clockB-QB-QC-QD. For normal use connect QA to clockB to link
+the two sections, and connect the external clock signal to clockA.</p>
+<p>For normal operation at least one <strong>reset0</strong> input should be low, making both high resets the counter to zero
+(0000, QA-QD low). Note that the 7490 has a pair of <strong>reset9</strong> inputs on pins 6 and 7, these reset the counter to
+nine (1001) so at least one of them must be low for counting to occur.</p>
+<p><strong>Counting to less than the maximum</strong> (9 or 15) can be achieved by connecting the appropriate output(s) to
+the two <strong>reset0</strong> inputs. If only one reset input is required the two inputs can be connected together.
+For example: to count 0 to 8 connect QA (1) and QD (8) to the reset inputs.</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7490-93.gif" alt="7490 and 7493 ripple counters" width="296" height="210">
+<br>NC = No Connection (unused pin).
+<br># on the 7490 pins 6 and 7 connect to<br>an internal AND gate for resetting to 9.
+<br>For normal use connect QA to clockB and<br>connect external clock signal to clockA.</p>
+<div class="note"><h4>Connecting in a chain</h4>
+<p>Please see below for details of connecting ripple counters like the 7490 and 7493 in a <a href="https://electronicsclub.info/74series.htm#chain">chain</a>.</p></div>
+</div>
+</div>
+
+<div id="74390" class="clearboth"></div><hr>
+
+<h2>74390 dual decade (0-9) ripple counter</h2>
+<div class="wrap320"><div class="colflex">
+<p>The 74390 contains two separate decade (0 to 9) counters, one on each side of the IC.
+They are <a href="https://electronicsclub.info/counting.htm#ripple">ripple</a> counters so beware that glitches may occur in any logic gate
+systems connected to their outputs due to the slight delay before the later counter outputs respond to a clock pulse.</p>
+<p>The count advances as the <strong>clock</strong> input becomes low (on the falling-edge), this is indicated
+by the bar over the clock label. This is the usual clock behaviour of ripple counters and it means
+a counter output can directly drive the clock input of the next counter in a chain.</p>
+<p><strong>Each counter is in two sections:</strong> clockA-QA and clockB-QB-QC-QD. For normal use connect QA to clockB to link
+the two sections, and connect the external clock signal to clockA.</p>
+<p>For normal operation the <strong>reset</strong> input should be low, making it high resets the counter to zero
+(0000, QA-QD low).</p>
+<p><strong>Counting to less than 9</strong> can be achieved by connecting the appropriate output(s) to the reset input,
+using an AND gate if necessary. For example: to count 0 to 7 connect QD (8) to reset, to count 0 to 8 connect
+QA (1) and QD (8) to reset using an AND gate.</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/74390.gif" alt="74390 dual decade counter" width="296" height="239">
+<br>For normal use connect QA to clockB and<br>connect external clock signal to clockA.</p>
+<div class="note"><h4>Connecting in a chain</h4>
+<p>Please see below for details of connecting ripple counters like the 74390 in a <a href="https://electronicsclub.info/74series.htm#chain">chain</a>.</p></div>
+</div>
+</div>
+
+<div id="74393" class="clearboth"></div><hr>
+
+<h2>74393 dual 4-bit (0-15) ripple counter</h2>
+<div class="wrap320"><div class="colflex">
+<p>The 74393 contains two separate 4-bit (0 to 15) counters, one on each side of the IC.
+They are <a href="https://electronicsclub.info/counting.htm#ripple">ripple</a> counters so beware that glitches may occur in logic systems
+connected to their outputs due to the slight delay before the later outputs respond to a clock pulse.</p>
+<p>The count advances as the <strong>clock</strong> input becomes low (on the falling-edge), this is indicated
+by the bar over the clock label. This is the usual clock behaviour of ripple counters and it means
+means a counter output can directly drive the clock input of the next counter in a chain.</p>
+<p>For normal operation the <strong>reset</strong> input should be low, making it high resets the counter to zero
+(0000, QA-QD low).</p>
+<p><strong>Counting to less than 15</strong> can be achieved by connecting the appropriate output(s) to the reset input,
+using an AND gate if necessary. For example to count 0 to 8 connect QA (1) and QD (8) to reset using an AND gate.</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/74393.gif" alt="74393 dual 4-bit counter" width="296" height="210"></p>
+<div class="note"><h4>Connecting in a chain</h4>
+<p>Please see below for details of connecting ripple counters like the 74390 in a <a href="https://electronicsclub.info/74series.htm#chain">chain</a>.</p></div>
+</div>
+</div>
+
+<div id="chain" class="clearboth"></div><hr>
+
+<h2>Connecting ripple counters in a chain</h2>
+<p>The diagram below shows how to link ripple counters in a chain, notice how the highest output QD of each
+counter drives the <strong>clock</strong> input of the next counter.</p>
+<div class="fullwidth">
+<img class="fit" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/ripcount.gif" alt="connecting ripple counters" width="512" height="96">
+</div>
+
+
+<div id="74160" class="clearboth"></div><div id="74161"></div><div id="74162"></div><div id="74163"></div><hr>
+
+<h2>74160-3 synchronous counters</h2>
+<div class="wrap320"><div class="colflex">
+<ul>
+<li>74160 synchronous decade counter (standard reset)</li>
+<li>74161 synchronous 4-bit counter (standard reset)</li>
+<li>74162 synchronous decade counter (synchronous reset)</li>
+<li>74163 synchronous 4-bit counter (synchronous reset)</li>
+</ul>
+<p>These are <strong>synchronous</strong> counters so their outputs change precisely together on each clock pulse.
+This is helpful if you need to connect their outputs to logic gates because it avoids the glitches which
+occur with ripple counters.</p>
+<p>The count advances as the <strong>clock</strong> input becomes high (on the rising-edge).
+The <strong>decade</strong> counters count from 0 to 9 (0000 to 1001 in binary).
+The <strong>4-bit</strong> counters count from 0 to 15 (0000 to 1111 in binary).</p>
+<p>For normal operation (counting) the <strong>reset</strong>, <strong>preset</strong>, <strong>count&nbsp;enable</strong>
+and <strong>carry&nbsp;in</strong> inputs should all be high.
+When <strong>count&nbsp;enable</strong> is low the clock input is ignored and counting stops.</p>
+<p>The counter may be <strong>preset</strong> by placing the desired binary number on the <strong>inputs&nbsp;A-D</strong>, making
+the <strong>preset</strong> input low, and applying a positive pulse to the <strong>clock</strong> input.
+The <strong>inputs&nbsp;A-D</strong> may be left unconnected if not required.</p>
+<p>The <strong>reset</strong> input is active-low so it should be high (+Vs) for normal operation (counting).
+When low it resets the count to zero (0000, QA-QD low), this happens immediately with the
+74160 and 74161 (<strong>standard reset</strong>), but with the 74162 and 74163 (<strong>synchronous reset</strong>)
+the reset occurs on the rising-edge of the clock input.</p>
+<p><strong>Counting to less than the maximum</strong> (15 or 9) can be achieved by connecting the appropriate output(s)
+through a NOT or NAND gate to the reset input.
+For the 74162 and 74163 (<strong>synchronous reset</strong>) you must use the output(s) representing <strong>one less</strong>
+than the reset count you require, e.g. to reset on 7 (counting 0 to 6) use QB (2) and QC (4).</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/74160-3.gif" alt="74160-3 counters" width="296" height="239">
+<br>* reset and preset are both active-low
+<br>preset is also known as parallel enable (PE)</p>
+<div class="note"><h4>Connecting in a chain</h4>
+<p>Please see below for details of connecting synchronous counters like the 74160-3 ICs in a <a href="https://electronicsclub.info/74series.htm#synchain">chain</a>.</p></div>
+</div>
+</div>
+
+<div id="synchain" class="clearboth"></div><hr>
+
+<h2>Connecting synchronous counters in a chain</h2>
+<p>The diagram below shows how to link synchronous counters such as 74160-3, notice how all the
+<strong>clock (CK)</strong> inputs are linked. <strong>Carry out (CO)</strong> is used to feed the <strong>carry in (CI)</strong>
+of the next counter. <strong>Carry in (CI)</strong> of the first 74160-3 counter should be high.</p>
+<div class="fullwidth">
+<img class="fit" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/syncount.gif" alt="connecting synchronous counters" width="524" height="119">
+</div>
+
+<div id="74192" class="clearboth"></div><div id="74193"></div><hr>
+
+<h2>74192 up/down decade (0-9) counter<br>74193 up/down 4-bit (0-15) counter</h2>
+<div class="wrap320"><div class="colflex">
+<p>These are <strong>synchronous</strong> counters so their outputs change precisely together on each clock pulse.
+This is helpful if you need to connect their outputs to logic gates because it avoids the glitches which
+occur with ripple counters.</p>
+<p>These counters have separate clock inputs for counting up and down.
+The count increases as the <strong>up clock</strong> input becomes high (on the rising-edge).
+The count decreases as the <strong>down clock</strong> input becomes high (on the rising-edge).
+In both cases the other clock input should be high.</p>
+<p>For normal operation (counting) the <strong>preset</strong> input should be high and the <strong>reset</strong> input low.
+When the <strong>reset</strong> input is high it resets the count to zero (0000, QA-QD low).</p>
+<p>The counter may be <strong>preset</strong> by placing the desired binary number on the <strong>inputs&nbsp;A-D</strong> and briefly
+making the <strong>preset</strong> input low. Note that a clock pulse is not required to preset, unlike the 74160-3 counters.
+The <strong>inputs&nbsp;A-D</strong> may be left unconnected if not required.</p>
+</div>
+<div class="col320">
+<p class="centered"><img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/74192-3.gif" alt="74192-3 up/down counters" width="296" height="239">
+<br>* preset is active-low</p>
+<div class="note"><h4>Connecting in a chain</h4>
+<p>Please see below for details of connecting these up/down counters in a chain.</p></div>
+</div>
+</div>
+
+<div class="clearboth"></div>
+
+<h2>Connecting up/down counters in a chain</h2>
+<p>The diagram below shows how to link 74192-3 up/down counters with separate up and down clock inputs,
+notice how <strong>carry</strong> and <strong>borrow</strong> are connected to the
+<strong>up&nbsp;clock</strong> and <strong>down&nbsp;clock</strong> inputs respectively of the next counter.</p>
+<div class="fullwidth">
+<img class="fit" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/updcount.gif" alt="connecting 74192-3 up/down counters" width="540" height="105">
+</div>
+
+<hr>
+
+<h4>74HC4017 decade counter (1-of-10)<br>74HC4020 14-bit ripple counter
+<br>74HC4040 12-bit ripple counter<br>74HC4060 14-bit ripple counter with internal oscillator</h4>
+<p>These are the 74HC equivalents of 4000 series CMOS counters.
+Like all 74HC ICs they need a power supply of 2 to 6V. For pin connections and functions please see:</p>
+<ul>
+<li><a href="https://electronicsclub.info/cmos.htm#4017">4017</a></li>
+<li><a href="https://electronicsclub.info/cmos.htm#4020">4020</a></li>
+<li><a href="https://electronicsclub.info/cmos.htm#4040">4040</a></li>
+<li><a href="https://electronicsclub.info/cmos.htm#4060">4060</a></li>
+</ul>
+
+<div id="decoders" class="clearboth"></div><div id="7442"></div><hr>
+
+<h2>7442 BCD to decimal (1 of 10) decoder</h2>
+<div class="wrap320"><div class="colflex">
+<p>The 7442 <strong>outputs</strong> are <strong>active-low</strong> which means they become low when selected but are high
+at other times. They can <a href="https://electronicsclub.info/ics.htm#sinksource">sink</a> up to about 20mA.</p>
+<p>The appropriate output becomes low in response to the BCD (binary coded decimal) input.
+For example an input of binary 0101 (=5) will make output Q5 low and all other outputs high.</p>
+<p>The 7442 is a <a href="https://electronicsclub.info/counting.htm#bcd">BCD</a> (binary coded decimal) decoder intended for input values 0 to 9
+(0000 to 1001 in binary). With inputs from 10 to 15 (1010 to 1111 in binary) all outputs are high.</p>
+<p>Note that the 7442 can be used as a <strong>1-of-8 decoder</strong> if input D is held low.</p>
+<p>Also see: <a href="https://electronicsclub.info/74series.htm#74HC4017">74HC4017</a> and <a href="https://electronicsclub.info/cmos.htm#4017">4017</a>
+both are a decade counter and 1-of-10 decoder in a single IC.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7442.gif" alt="7442 BCD to decimal (1 of 10) decoder" width="296" height="239"></div>
+</div>
+
+<div id="drivers" class="clearboth"></div><div id="7447"></div><hr>
+
+<h2>7447 BCD to 7-segment display driver</h2>
+<div class="wrap320"><div class="colflex">
+<p>The appropriate <strong>outputs a-g</strong> become low to display the <a href="https://electronicsclub.info/counting.htm#bcd">BCD</a>
+(binary coded decimal) number supplied on <strong>inputs&nbsp;A-D</strong>.
+The 7447 has <a href="https://electronicsclub.info/74series.htm#opencollector">open&nbsp;collector</a>
+outputs a-g which can <a href="https://electronicsclub.info/ics.htm#sinksource">sink</a> up to 40mA.
+The 7-segment display segments must be connected between +Vs and the outputs with a resistor in series
+(330<img src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/ohm.gif" alt="ohm" width="12" height="11"> with a 5V supply).
+A <strong>common anode</strong> display is required.</p>
+<p><strong>Display test</strong> and <strong>blank input</strong> are active-low so they should be high for normal operation.
+When <strong>display test</strong> is low all the display segments should light (showing number 8).</p>
+<p>If the <strong>blank input</strong> is low the display will be blank when the count input is zero (0000).
+This can be used to blank leading zeros when there are several display digits driven by a chain of counters.
+To achieve this <strong>blank&nbsp;output</strong> should be connected to <strong>blank&nbsp;input</strong> of the next
+display down the chain (the next most significant digit).</p>
+<p>The 7447 is intended for BCD (binary coded decimal) which is input values 0 to 9 (0000 to 1001 in binary).
+Inputs from 10 to 15 (1010 to 1111 in binary) will light odd display segments but will do no harm.</p>
+</div>
+<div class="col320"><img class="centered" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/7447.gif" alt="7447 BCD to 7-segment display ddriver" width="296" height="239"></div>
+</div>
+<hr>
+
+<h4>74HC4511 BCD to 7-segment display driver</h4>
+<div class="wrap320"><div class="colflex">
+<p>This is the 74HC equivalent of the CMOS 4511 display driver. Like all 74HC ICs it needs a power supply of 2 to 6V.
+For pin connections and functions please see <a href="https://electronicsclub.info/cmos.htm#4511">4511</a>.</p>
+</div>
+<div class="col320"></div>
+</div>
+
+<!-- Google footerflex -->
+<hr><div class="responsivead">
+<script async="" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/f.txt"></script>
+<!-- footerflex -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3404237790618599" data-ad-slot="6192944067" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<footer>
+<h4 class="hide-print">Privacy Policy &amp; Cookies</h4>
+<p class="hide-print"><small>This website does not collect personal information.
+If you send an email your email address and any personal information will be
+used only to respond to your message, it will not be given to anyone else.
+This website displays advertisements, if you click on
+these the advertiser may know that you came from this site and I may be rewarded.
+No personal information is passed to advertisers.
+This website uses some cookies classed as 'strictly necessary', they are essential for operation of the website and cannot be refused but they do not contain any personal information.
+This website uses the Google AdSense service which uses cookies to serve advertisements based on your use of websites
+(including this one) as explained by <a href="http://www.google.com/policies/technologies/ads/">Google</a>.
+To learn how to delete and control cookies from your browser please
+visit <a href="http://www.aboutcookies.org/">AboutCookies.org</a>.
+</small></p>
+<p class="centered">electronicsclub.info © John Hewes 2020
+<span class="hide-print"><br><br>Website hosted by <a href="https://my.tsohost.com/aff.php?aff1608">Tsohost</a></span></p>
+</footer>
+<!-- Start of StatCounter Code for EC -->
+<script>
+var sc_project=233184; 
+var sc_invisible=1; 
+var sc_security="1659c474"; 
+var sc_client_storage="disabled"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><script type="text/javascript" src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/counter.js.download"></script>
+<noscript><div class="statcounter"><a title="site stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="//c.statcounter.com/233184/0/1659c474/1/"
+alt="site stats"></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<script src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/pub.170429.min.js.download"></script>
+
+
+
+<script src="./Electronics Club - 74 Series Logic ICs - families, 74HC, 74HCT, 74LS, open collector output, logic gates, counters, decoders, display drivers_files/init.js.download"></script></body></html>

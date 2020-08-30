@@ -1,0 +1,136 @@
+body {font-family:Helvetica, Arial, sans-serif; font-size:100%; margin:0px;}
+body {min-width:320px; max-width:990px; margin:auto;}
+@media (max-width:990px){body{max-width:780px;}} /* ensures menu boxes are never 5 across */
+
+h1 {font-size:1.75em; font-weight:bold; margin:10px 10px 10px 10px;}
+h2 {font-size:1.5em; font-weight:bold; margin:20px 10px 10px 10px;}
+h3 {font-size:1.25em; font-weight:bold; margin:10px 5px 5px 10px;}
+h4 {font-size:1.125em; font-weight:bold; margin:5px 5px 5px 10px;}
+p, ul, ol, table {font-size:1.0em; text-indent:0px; margin:0px 10px 10px 10px;}
+form {font-size:1.0em; text-indent:0px; margin:0px;}
+ol {margin-left:-5px;}
+ul {margin-left:-10px;}
+.links {line-height:165%;}
+small {font-size:0.875em;}
+strong {font-weight:bold;}
+a {color:blue;}
+a:hover, a:hover {color:red;}
+a:visited {color:purple;}
+a.cyan {color:cyan;}
+hr {clear:both; margin:15px 0px 15px 0px;}
+.clearboth {clear:both; margin:0px 0px 10px 0px;}
+.clearright {clear:right;}
+
+#header {position:fixed; background-color:#006; top:0; z-index:9; width:100%; min-width:320px; max-width:990px; height:24px; padding:2px 0px; overflow:hidden;}
+@media (max-width:990px){#header{max-width:780px;}}
+#topofpage {background-color:white; top:0; width:100%; height:28px;}
+a#menulink {float:right; color:white; font-size:16px; font-weight:bold; padding:2px 10px; margin:0px 2px 0px 0px; text-decoration:none; background-color:#000066;}
+a#menulink:hover {background-color:blue;}
+a#menulink:active {background-color:#006;}
+a#menulink:visited {background-color:#006;}
+a#homelink {float:left; color:white; font-size:16px; font-weight:bold; padding:2px 10px; margin:0px 0px 0px 2px; text-decoration:none; background-color:#000066;}
+a#homelink:hover {background-color:blue;}
+a#homelink:active {background-color:#006;}
+a#homelink:visited {background-color:#006;}
+a.navlink {float:left; color:white; font-size:16px; padding:2px 6px; text-decoration:none; background-color:#006;}
+a.navlink:hover {background-color:blue;}
+a.navlink:active {background-color:#006;}
+a.navlink:visited {background-color:#006;}
+span.nav {float:left;} /* prevents just one odd nav item showing on narrow screen */
+
+footer {clear:both; background-color:#006; color:#eee; font-size:0.875em; padding:2px; line-height:100%; margin:20px 0px 0px 0px;}
+footer a {color:cyan;}
+footer a:visited {color:#f8f;}
+#copyright {color:white; font-size:16px; text-align:center;}
+#date {text-align:center; margin:5px 0px 10px 0px;}
+#topofpage {clear:both; margin:0px 0px 10px 0px;}
+
+.flexwrap {clear:both; display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-around;}
+
+.box {float:left; width:150px; height:143px; padding:0px; margin:0px 4px 10px 4px; border:1px solid #000066; border-radius:8px; background:white; font-size:14px; color:black; overflow:hidden;}
+.box h4 {margin:4px 4px 2px 6px;} .box p {margin:0px 4px 4px 6px;}
+.link {border:1px solid blue;}    .link h4 {color:blue;}
+.redlink {border:1px solid #e00000; background-color:#e00000; color:white;} .redlink h4 {color:white;}
+.rapid {border:1px solid #000066; background-color:#000066; color:white;}   .rapid h4 {color:white;}
+p.rapidcredit {font-size:0.75em; text-align:center; margin:1px 10px 1px 10px;}
+.rapidoffer {border:1px solid red; background-color:red; color:white;}   .rapidoffer h4 {color:white;}
+.eim {border:1px solid #0cc; border-radius:8px; padding:10px 5px 5px 5px; margin:10px; background-color:#dff; color:black;}
+.note {border:1px solid #eee; border-radius:8px; padding:5px; margin:10px; background-color:#eee; color:black;}
+.note.toppadding {padding:10px 5px 0px 5px; margin:0px 10px;}
+.noteborder {border:1px solid black; border-radius:8px; padding:5px; margin:10px; background-color:white; color:black;}
+.notewarn {border:1px solid red; border-radius:8px; padding:5px; margin:10px; background-color:#fff; color:black;}
+.notewarn h4{color:red;}
+
+ul.menupage {list-style-type:none; padding:5px 0px 5px 5px; margin:0px 5px 10px 5px; border:1px solid #000066; overflow:hidden; background-color:#f8f8f0;}
+ul.menupage li {text-indent:5px; font-size:16px; line-height:165%;}
+
+.responsivead {clear:both;display:table;margin:auto;padding:20px 0;width:728px;}
+@media (max-width:750px) {.responsivead {width:468px;}}
+@media (max-width:600px) {.responsivead {width:320px;}}
+
+img.narrow {clear:right; float:right; padding:5px 10px 5px 10px;}  /* clear right is vital for circuit symbols */
+img.logo {float:right; margin:0px 10px 20px 10px;}
+img.left {float:left; max-width:300px; text-align:center; margin:0px 10px 10px 10px;}
+div.fullwidth {margin:10px;}
+img.fit {display:block; max-width:100%; height:auto; margin:0px auto 10px auto;}
+img.ad  {display:block; margin:10px auto 10px auto;}
+img.squash {display:block; width:144px; height:auto; max-width:100%; margin:0px auto 0px auto;}
+img.centered {display:block; height:auto; max-width:100%; margin:0px auto 10px auto;}
+p.centered {text-align:center;}
+table.centered {margin:0 auto 10px auto; text-align:center;}
+.equation {padding:5px; border:1px solid black; border-radius:8px; background-color:#ff9;}
+table.lines {border:1px solid black; border-collapse:collapse; background-color:white;}
+table.lines td {border:1px solid black; padding:4px; background-color:white;}
+table.smallfont {font-size:14px;}
+table.textleft {text-align:left;}
+.firstaid {color:white; background-color:#005000; margin:10px; padding:1px 5px 10px 5px; border:1px solid #005000; border-radius:8px;}
+.warning {border:1px solid red; text-align:left; margin:10px;}
+.warning h4 {color:red;}
+span.brown {font-weight:bold; color:#996600;}
+span.red {font-weight:bold; color:red;}
+span.darkred {font-weight:bold; color:#990000;}
+span.orange {font-weight:bold; color:#ff9900;}
+span.yellow {font-weight:bold; color:#cccc00;}
+span.green {font-weight:bold; color:green;}
+span.blue {font-weight:bold; color:blue;}
+span.violet {font-weight:bold; color:#ff00ff;}
+span.grey {font-weight:bold; color:#666666;}
+span.white {font-weight:bold; color:#ffffff;}
+
+.wrapfull {clear:both;width:100%;}
+.colflex {float:left;width:100%;}
+.colhalf {float:left;width:50%;}
+@media (max-width:659px) {.colhalf{width:100%;}}
+@media print {.colhalf{width:100%;}}
+.wrap320 {clear:both;margin-right:320px;}
+.col320 {float:right;width:320px;margin-right:-320px;}
+@media (max-width:659px) {.wrap320{clear:both;margin-right:0px;} .col320 {float:left;width:100%;margin-right:0px;}}
+@media (min-width:990px) {.wrap320{clear:both;margin-right:480px;} .col320 {float:left;width:480px;margin-right:-480px;}}
+.wrap480 {clear:both;margin-right:480px;}
+.col480 {float:right;width:480px;margin-right:-480px;}
+@media (max-width:989px) {.wrap480{clear:both;margin-right:0px;} .col480 {float:left;width:100%;margin-right:0px;}}
+
+.ad {display:table;margin:auto;padding:10px 0 10px 0;}
+.ad p {text-align:center;margin-top:0;}
+.ad img {display:block;margin:auto;}
+
+/* media width breakpoints set 20px greater than 640/960 to allow for side scroll bar */
+.show-tiny, .show728, .show468, .show300 {display:none;}
+@media (min-width:760px){.show728{display:inline;}}
+@media (max-width:759px) and (min-width:500px){.show468{display:inline;}}
+@media (max-width:499px){.show300{display:inline;}}
+@media (max-width:520px){.hide-tiny{display:none;} p.show-tiny{display:block;}}
+@media (max-width:659px){.hide-small{display:none;}}
+@media (max-width:979px) and (min-width:660px){.hide-medium{display:none;}}
+@media (min-width:980px){.hide-large{display:none;}}
+
+.print-only {display:none;}
+@media print {body {font-size:80%;background:#fff;} .print-only {text-align:center;display:inline;}}
+@media print {.hide-print, #header, .privacy, .ad, .ad300x250, .ad300x100, .responsivead {display:none;}}
+@media print {footer {color:#000;background:#fff;}}
+@media print {footer a #copyright {color:#000;}}
+
+/* all columns full width for printing */
+@media print {.wrap320, .wrap480 {clear:both;margin-right:0px;} .col320, .col480 {float:left;width:100%;margin-right:0px;}}
+
+
