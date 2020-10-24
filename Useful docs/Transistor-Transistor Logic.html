@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<!-- saved from url=(0074)https://www.st-andrews.ac.uk/~www_pa/Scots_Guide/datasheets/logic/TTL.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Transistor-Transistor Logic</title></head>
+<body bgcolor="#ccffff" text="#000000" link="#004499" vlink="#dd0000">
+
+
+<font size="4">
+
+
+
+<img src="./Transistor-Transistor Logic_files/thead.gif" width="285" height="220" align="LEFT"><br>
+
+
+
+<i>TTL</i> devices make use of bipolar transistors. The main distinguishing features of the basic TTL family is that they demand a power rail which is very close to +5V, and they use a relatively high amount of current to drive their logic levels (below 1V for a logical ‘0’ or ‘<i>low</i>’, and above about 3.5V for a logical ‘1’ or ‘<i>high</i>’).
+<br clear="ALL"><br>
+
+
+ A particular characteristic of TTL signals is that the inputs to a gate “float high” — i.e. rise to a logical ‘1’ — if left unconnected. This means that the main requirement for driving a TTL input is to “pull down” the level to near 0V. This typically takes a few milliamps per input. This is usually described by saying that a TTL signal source has to be able to “sink” a relatively large current. Typically, TTL gates take around 10-20 nanoseconds to switch level. Hence we can ‘clock’ TTL and pass bits through the gates at rates up to around 50MHz provided the circuits are designed carefully. With care, speeds approaching 100MHz are possible, but for high speed operation other forms of logic may work better.<br><br>
+
+Lots of TTL gates are available. The illustrations below show just a few of the simplest ones.<br><br>
+
+<center><img src="./Transistor-Transistor Logic_files/nanor.gif" width="569" height="326"></center><br>
+
+<center><img src="./Transistor-Transistor Logic_files/hexor.gif" width="598" height="342"></center>
+
+As with other kinds of integrated circuits there are many variations on the basic TTL family. The original chips have numbers like “SN74<i>xx</i>”, where <i>xx</i> is the part number. In general, the most useful series is the SN74LS<i>xx </i>family. These consume much less current that basic TTL and hence are easier on the power supply. The ‘L’ in the title stands for “low power”, and the ‘S’ stands for “Schottky” — the kinds of diode used inside the gates to help them run quickly without using a lot of current. (The diodes prevent the transistors inside the chip from ‘saturating’ when turned on and wasting lots of current.)<br><br>
+
+<hr>
+
+<center>
+
+<h3>Basic Properties of some TTL Families.</h3>
+
+<table border="1">
+<tbody><tr><td><center><img src="./Transistor-Transistor Logic_files/ics.gif" width="165" height="33"></center></td><th>74 family</th><th>74LS family</th><th>54 family</th></tr>
+<tr><th>Supply Voltage</th><td align="center">+5V (+/- 0.5V)</td><td align="center">+5V (+/- 0.5V)</td><td align="center">+5V (+/- 0.25V)</td></tr>
+<tr><th>‘1’  Level Output Current</th><td align="center">0.4mA</td><td align="center">0.4mA</td><td align="center">0.4mA</td></tr>
+<tr><th>‘0’ Level Ouput Current</th><td align="center">16mA</td><td align="center">8mA</td><td align="center">16mA</td></tr>
+<tr><th>‘1’ Level Input Voltage (min)</th><td align="center">2V</td><td align="center">2V</td><td align="center">2V</td></tr>
+<tr><th>‘0’ Level Input Voltage (max)</th><td align="center">0.8V</td><td align="center">0.8V</td><td align="center">0.8V</td></tr>
+<tr><th>‘1’ Level Input Current</th><td align="center">0.04mA</td><td align="center">0.05mA</td><td align="center">0.04mA</td></tr>
+<tr><th>‘0’ Level Input Current</th><td align="center">1.6mA</td><td align="center">0.4mA</td><td align="center">1.6mA</td></tr>
+</tbody></table>
+</center><br><br>
+
+Comparing the above we can see that the main difference between the 74 and 74LS families is that we have to pull (i.e. ‘sink’) around 1.6mA  out of a 74 input to hold it down to a logic ‘0’, but we only have to draw 0.4mA out of a 74LS to hold it down. In general, we can expect an LS gate to consume around a quarter the power/current of a plain 74 gate of the same type. Hence the LS gates are a good choice if we are using a battery or want to save on the power supply cost.<br><br>
+
+From the table it is not obvious why anyone would choose the related 54 family as it seems much the same as the 74 one. However, 54 gates are built to operate over a much wider temperature range (-55 Celsius to +125 Celsius) that the 74/74LS (0 to 70 Celsius). Hence the 54 family is better if we have to build circuits for ‘extreme’ environments.<br><br>
+
+TTL is still used a lot when building ‘one off’ logic circuits as the gates are cheap and fairly robust (i.e. you aren't likely to damage them when building the circuit!). However, most modern large scale commercial and industrial systems use CMOS logic as it is cheaper/better for integrated systems. The main disadvantage of CMOS is that it is static sensitive, hence it can be depressingly easy to destroy CMOS logic simply by taking it out of its package carelessly!!
+
+</font>
+
+
+<br><br>
+<hr>
+<center><img src="./Transistor-Transistor Logic_files/rpcs.GIF" width="60" height="29"><address>
+Content and pages maintained by: Jim Lesurf (<a href="mailto:jcgl@st-and.ac.uk">jcgl@st-and.ac.uk</a>)<br> using HTMLEdit2 on a StrongARM powered RISCOS machine.<br>
+
+University of St. Andrews, St Andrews, Fife KY16 9SS, Scotland.</address></center>
+<hr>
+
+
+</body></html>
