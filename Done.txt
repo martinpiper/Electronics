@@ -1,0 +1,2 @@
+* Upgraded the project to Proteus 9
+* Changed the simulation time step and reset timing to make it easier to debug

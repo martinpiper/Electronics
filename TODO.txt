@@ -1,0 +1,6 @@
+* Opcode reset with RST getting to U20 U21
+	These should be edge triggered...
+
+
+
+* Modify the conectors for the back plane... Possible to use one of the older ones.
